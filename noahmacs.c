@@ -860,7 +860,7 @@ void editorRefreshScreen(void) {
             if (E.numrows == 0 && y == E.screenrows/3) {
                 char welcome[80];
                 int welcomelen = snprintf(welcome,sizeof(welcome),
-                    "Noahmacs Editor -- Verison %s\x1b[0K\r\n", NOAHMACS_VERSION);
+                    "Noahmacs Editor -- Version %s\x1b[0K\r\n", NOAHMACS_VERSION);
                 int padding = (E.screencols-welcomelen)/2;
                 if (padding) {
                     abAppend(&ab,"~",1);
