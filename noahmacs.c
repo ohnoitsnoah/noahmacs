@@ -532,7 +532,7 @@ void editorUpdateRow(erow *row) {
     unsigned long long allocsize =
         (unsigned long long) row->size + tabs*8 + nonprint*9 + 1;
     if (allocsize > UINT32_MAX) {
-        printf("Some line of the edited file is too long for Noahmacs\n");
+        printf("Some line(s) of the edited file is too long for Noahmacs\n");
         exit(1);
     }
 
