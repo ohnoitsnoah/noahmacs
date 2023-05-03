@@ -15,4 +15,4 @@ Noahmacs does not depend on any library (not even curses). It uses fairly standa
 
 Noahmacs is currently based on the Kilo text editor. Changes are planned to have it be based on MicroEmacs in the future.
 
-Kilo was written by Salvatore Sanfilippo aka antirez and is released under the BSD 2 clause license.
+[Kilo](https://github.com/antirez/kilo) was written by Salvatore Sanfilippo aka antirez and is released under the BSD 2 clause license.
