@@ -917,6 +917,7 @@ void editorRefreshScreen(void) {
     }
 
     /* Create a two rows status. First row: */
+    /*** STATUS BAR ***/
     abAppend(&ab,"\x1b[0K",4);
     abAppend(&ab,"\x1b[7m",4);
     char status[80], rstatus[80];
