@@ -924,7 +924,7 @@ void editorRefreshScreen(void) {
     int len = snprintf(status, sizeof(status), "-- Noahmacs 0.0.1: %.20s - %d lines %s",
         E.filename, E.numrows, E.dirty ? "(Modified)" : "");
     int rlen = snprintf(rstatus, sizeof(rstatus),
-        "%d/%d --",E.rowoff+E.cy+1,E.numrows);
+        "(%d/%d) --",E.rowoff+E.cy+1,E.numrows);
     if (len > E.screencols) len = E.screencols;
     abAppend(&ab,status,len);
     while(len < E.screencols) {
