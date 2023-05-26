@@ -1,7 +1,7 @@
 Noahmacs
 ===
 
-Noahmacs is a small text editor in less than 1K lines of code (counted with cloc).
+Noahmacs is a small hobby text editor in less than 1K lines of code (counted with cloc).
 
 Usage: nm `<filename>`
 
