@@ -13,7 +13,7 @@ Keys:
 
 Nemacs does not depend on any library (not even curses). It uses fairly standard VT100 (and similar terminals) escape sequences.
 
-Nemacs is currently based on the [Kilo text editor](https://github.com/antirez/kilo). Changes are planned to have it be based on [MicroEMACS](https://en.wikipedia.org/wiki/MicroEMACS) in the future.
+Nemacs is currently based on the [Kilo text editor](https://github.com/antirez/kilo).
 
 [Kilo](https://github.com/antirez/kilo) was written by Salvatore Sanfilippo aka [antirez](https://github.com/antirez) and is released under the [BSD 2 clause license](https://opensource.org/license/bsd-2-clause/).
 
